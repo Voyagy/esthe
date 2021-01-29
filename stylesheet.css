@@ -1,0 +1,69 @@
+html, body, header, footer, h1, h2, h3, table, p, li, ul, div, a, img{
+  margin: 0;
+  padding: 0;
+  font-family: "century Gothic", Arial ,sans-serif;
+  list-style: none;
+}
+
+header {
+  height: 160px;
+  background-image:url('./images/header-back.gif');
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.logo img{
+  margin-top: 30px;
+  margin-left: 10px;
+  height: 120px;
+  float: left;
+}
+
+.header-right {
+  float: right;
+}
+
+li {
+  float: left;
+  margin: 16px 16px 16px 8px;
+}
+.header-right img {
+  height: 80px;
+}
+#menu {
+  color: #fff;
+}
+
+#menu li:hover {
+  background-color: #fff;
+  color: blue;
+  opacity: 0.7;
+}
+.top-container {
+  height: 720px;
+  background-image: url('./images/top-back.gif');
+  background-size: cover;
+}
+
+.top{
+  height: 720px;
+}
+.top ul {
+  margin: 0 20%;
+}
+.top li {
+  float: left;
+}
+.top-left {
+  display: inline-block;
+}
+.top-left img {
+  height: 280px;
+}
+.top-right {
+  display: inline-block;
+}
+.top-right img {
+  height: 420px;
+  opacity: 0.9;
+}
